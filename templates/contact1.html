@@ -1,0 +1,256 @@
+<!doctype html>
+{% load static %}
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css?family=Oswald:300,400|Roboto+Mono&display=swap" rel="stylesheet">
+
+     <link rel="shortcut icon" type="image/x-icon" href="{% static 'images/favicon.png' %}" />
+
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+    
+    <!-- Style -->
+    <link rel="stylesheet" href="{% static 'css/style2.css' %}">
+
+    <title>لتواصل</title>
+  </head>
+  <body>
+  <body class="body-wrapper" data-spy="scroll" data-target=".privacy-nav">
+
+
+<nav class="navbar main-nav navbar-expand-lg px-2 px-sm-0 py-2 py-lg-0">
+  <div class="container">
+    <a class="navbar-brand" href="index.html"><img src="{% static 'images/s (1) (1).svg' %}" alt="logo"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="ti-menu"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item dropdown active">
+          <a class="nav-link " href="index.html" data-toggle="">الصفحة الرئيسية
+
+          </a>
+          <!-- Dropdown list -->
+          <ul class="dropdown-menu">
+
+
+
+            <li class="dropdown dropdown-submenu dropright">
+
+
+
+            </li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown @@pages">
+          <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">لتحميل
+            <span><i class="ti-angle-down"></i></span>
+          </a>
+          <!-- Dropdown list -->
+          <ul class="dropdown-menu">
+
+
+
+
+
+
+            <li><a class="dropdown-item" href="Login_form.html">للاندرويد</a></li>
+            <li><a class="dropdown-item" href="sign-up.html ">للايفون </a></li>
+
+
+            <li class="dropdown dropdown-submenu dropleft">
+
+
+
+              <ul class="dropdown-menu" aria-labelledby="dropdown0501">
+
+
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li class="nav-item @@about">
+          <a class="nav-link active" href="service.html">الاهداف</a>
+        </li>
+        <li class="nav-item @@contact">
+          <a class="nav-link" href="contact.html">لتواصل</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+
+
+<section>
+  <div class="content">
+    
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-8">
+          <div class="row mb-5">
+            <div class="col-md-4 mr-auto">
+              <h1 class="thin-heading mb-4">اوقات العمل الرسمية&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </h1>
+              <p>يبدأ  الدوام في تمام الساعة 7:30 صباحاً، ويستمر إلى غاية الساعة 2:30 ظهراً.</p>
+            </div>
+            <div class="col-md-6 ml-auto">
+              <h3 class="thin-heading mb-4">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;لتواصل &nbsp;&nbsp;&nbsp;&nbsp;
+              </h3>
+              <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;T:+966xxxx6119 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; E:smartcanteen@gmail.eu
+              </p>
+            </div>
+          </div>
+
+          <div class="row justify-content-center">
+            <div class="col-md-12">
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+
+
+
+
+
+
+              <h3 class="thin-heading mb-4">شاركنا بتجربتك</h3>
+
+              <form class="mb-5" method="post" id="contactForm" name="contactForm">
+                <div class="row">
+                  <div class="col-md-6 form-group">
+                    <input type="text" class="form-control" name="name" id="name" placeholder="الاسم">
+                  </div>
+                  <div class="col-md-6 form-group">
+                    <input type="text" class="form-control" name="email" id="email" placeholder="الايميل">
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-12 form-group">
+                    <textarea class="form-control" name="message" id="message" cols="30" rows="2" placeholder="اكتب هنا"></textarea>
+                  </div>
+                </div>  
+                <div class="row">
+                  <div class="col-12">
+                    <input type="submit" value="ارسال" class="btn btn-primary rounded-0 py-2 px-4">
+                  <span class="submitting"></span>
+                  </div>
+                </div>
+              </form>
+
+              <div id="form-message-warning mt-4"></div> 
+              <div id="form-message-success">
+                Your message was sent, thank you!
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  </section>
+<footer>
+  <div class="footer-main">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-md-12 m-md-auto align-self-center">
+          <div class="block">
+               <ul class="social-icon list-inline">
+              <li class="list-inline-item">
+                <a href="https://www.facebook.com/themefisher"><i class="ti-facebook"></i></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://twitter.com/themefisher"><i class="ti-twitter"></i></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://www.instagram.com/themefisher/"><i class="ti-instagram"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-3 col-6 mt-5 mt-lg-0">
+          <div class="block-2">
+            <!-- heading -->
+
+            <!-- links -->
+            <ul>
+
+
+
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-3 col-6 mt-5 mt-lg-0">
+          <div class="block-2">
+            <!-- heading -->
+
+            <!-- links -->
+            <ul>
+
+
+
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-3 col-6 mt-5 mt-lg-0">
+          <div class="block-2">
+            <!-- heading -->
+
+            <!-- links -->
+            <ul>
+
+
+
+
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-3 col-6 mt-5 mt-lg-0">
+          <div class="block-2">
+            <!-- heading -->
+
+            <!-- links -->
+            <ul>
+
+
+
+
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="text-center bg-dark py-4">
+    <small class="text-secondary">Copyright &copy; <script>document.write(new Date().getFullYear())</script>. Designed &amp; Developed
+  </div>
+</footer>
+
+
+  <!-- To Top -->
+  <div class="scroll-top-to">
+    <i class="ti-angle-up"></i>
+  </div>
+
+
+
+    
+
+    <script src="{% static 'js/jquery-3.3.1.min.js' %}"></script>
+    <script src="{% static 'js/popper.min.js' %}"></script>
+    <script src="{% static 'js/bootstrap.min.js' %}"></script>
+    <script src=
+"{% static 'js/jquery.validate.min.js' %}"></script>
+    <script src="{% static 'js/main2.js' %}"
+></script>
+
+  </body>
+</html>
